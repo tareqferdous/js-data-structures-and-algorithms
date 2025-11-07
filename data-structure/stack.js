@@ -1,4 +1,4 @@
-class Stack {
+export default class Stack {
   constructor() {
     this.items = []; // array দিয়ে stack রাখা হবে
   }
@@ -43,13 +43,13 @@ class Stack {
 // Usage
 const stack = new Stack();
 
-stack.push(10);
-stack.push(20);
-stack.push(30);
+// stack.push(10);
+// stack.push(20);
+// stack.push(30);
 
-stack.print(); // Output: 10 <- 20 <- 30
+// stack.print();
 
-console.log("Top:", stack.peek()); // 30
-console.log("Popped:", stack.pop()); // 30
+// console.log("Top:", stack.peek());
+// console.log("Popped:", stack.pop());
 
-stack.print(); // 10 <- 20
+// stack.print();
